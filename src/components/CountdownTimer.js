@@ -42,12 +42,12 @@ const CountdownTimer=()=>{
     return(
         <section>
             <section className='timer'>
-                <div className='countdown-box'>
-                    <h3 className='countdown-title'>We just can't wait!</h3>
+                <div className="countdown-title">
+                    <h3>We just can't wait!</h3>
                     <p>How long until our <b>amazing deals?!</b></p>
                 </div>
-                <div>
-                    <section className="inside-box">
+                <div className="inside-box">
+                    <section>
                         <p>{timerDays}</p>
                         <p><small>Days</small></p>
                     </section>
