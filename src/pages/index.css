@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 767px){
   .timer div:last-child {
     margin-left: 2em;
     margin-right: 2em;
@@ -92,7 +92,7 @@ h2 {
 
 .timer {
   display: flex;
-  flex: column;
+  flex:auto;
   align-items: center;
   justify-content: center;
   padding-bottom: 7em;
@@ -120,7 +120,7 @@ h2 {
   grid-template-columns: repeat(7, 1fr);
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  padding: 1em;
+  padding: 3em;
   text-align: center;
   font-size: 1em;
   border-style: dotted;
