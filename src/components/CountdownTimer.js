@@ -47,7 +47,7 @@ const CountdownTimer=()=>{
                     <p>How long until our <b>amazing deals?!</b></p>
                 </div>
                 <div>
-                    <section>
+                    <section className="inside-box">
                         <p>{timerDays}</p>
                         <p><small>Days</small></p>
                     </section>

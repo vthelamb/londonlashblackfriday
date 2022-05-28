@@ -90,6 +90,10 @@ h2 {
   padding: 1em;
 }
 
+.inside-box{
+  padding: auto;  
+}
+
 .timer {
   display: flex;
   flex:auto;
