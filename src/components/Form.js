@@ -7,15 +7,15 @@ function Form(){
             <form>
                 <label>Name</label>
                 <span>: </span>
-                <input type='text' className='input-name' placeholder='Your name'></input>
+                <input type='text' className='input-field' placeholder='Your name'></input>
                 <br></br>
                 <label>Email</label>
                 <span>: </span>
-                <input type='text' className='input-email' placeholder='Your e-mail address'></input>
+                <input type='text' className='input-field' placeholder='Your e-mail address'></input>
                 <br></br>
                 <label> Phone</label>
                 <span>: </span>
-                <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" className='input-phone' placeholder='Your phone number'></input>
+                <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" className='input-field' placeholder='Your phone number'></input>
                 <br></br>
                 <input type='submit' className='submit-button' value='Submit'/>
             </form>

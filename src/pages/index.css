@@ -1,24 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-@media screen and (max-width: 480px){
-  .timer div:last-child {
-    margin-left: 2em;
-    margin-right: 2em;
-    padding: 3em 1em;
-  }
-}
-
 .main-image {
   height: 200px;
   width: 800px;
+  margin-top: 20px;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 767px){
   .main-image {
     height: 100%;
     width: 100%;
   }
 }
+
+@media screen and (max-width: 767px){
+  .inside-box{
+    font-size: 10px;
+  }
+}
+
+.timer div:last-child {
+  border: 2px solid black;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 2em;
+  text-align: center;
+  font-size: 18px;
+  font-style: oblique;
+  font-weight: 600;
+  border-style: dotted;
+}
+
+@media screen and (max-width: 767px){
+  .timer div:last-child {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+.timer div:last-child p{
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@media screen and (max-width: 767px){
+  .timer div:last-child p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    text-align: center;
+    font-size: 5px;
+  }
+}
+
+.input-field {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+@media screen and (max-width: 767px){
+  .input-field {
+    width: 100%;
+    padding: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    resize: vertical;
+  }
+}
+
+.timer {
+  display: flex;
+  flex:auto;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5em;
+  padding-top: 5em;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px){
+  .timer {
+    display: flex;
+    flex:auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    width: 100%;
+    height: 100%;
+  }
+  }
 
 body {
   margin: 50px;
@@ -34,39 +122,6 @@ h2 {
 
 h3 {
   font-style: italic;
-}
-
-.input-name {
-  width: 40%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical
-}
-
-.input-email {
-  width: 40%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical
-}
-
-.input-phone {
-  width: 40%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical
 }
 
 .submit-button {
@@ -96,22 +151,6 @@ h3 {
   margin-right: 1em;
 }
 
-.inside-box{
-  padding: auto;
-  font-size: 50px;
-}
-
-.timer {
-  display: flex;
-  flex:auto;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 5em;
-  padding-top: 5em;
-  width: 100%;
-  height: 100%;
-}
-
 .timer div:first-child{
   text-align: center;
 }
@@ -121,23 +160,4 @@ h3 {
   text-align: center;
   font-weight: 200;
   font-style: italic;
-}
-
-.timer div:last-child {
-  border: 2px solid black;
-  border-radius: 4px;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  padding: 2em;
-  text-align: center;
-  font-size: 18px;
-  font-style: oblique;
-  font-weight: 600;
-  border-style: dotted;
-}
-
-section p:first-child, .timer div:last-child span {
-  font-size: 1em;
 }
