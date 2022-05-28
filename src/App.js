@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <CountdownTimer CountdownTimer={CountdownTimer}/>
+      <CountdownTimer />
       <Form />
     </div>
   );
