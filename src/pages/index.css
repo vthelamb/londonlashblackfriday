@@ -2,16 +2,21 @@
 
 @media screen and (max-width: 480px){
   .timer div:last-child {
-    margin-left: 1em;
-    margin-right: 1em;
-    padding: 2em 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 3em 1em;
   }
 }
 
-@media screen and (max-width: 480px){
-  .logo {
-    width: 100%;
+.main-image {
+  height: 200px;
+  width: 800px;
+}
+
+@media screen and (max-width: 767px){
+  .main-image {
     height: 100%;
+    width: 100%;
   }
 }
 
@@ -25,16 +30,6 @@ body {
 
 h2 {
   font-size: 50px;
-}
-
-.logo {
-  height: 25px;
-  width: 200px;
-}
-
-.main-image {
-  height: 200px;
-  width: 800px;
 }
 
 .input-name {
